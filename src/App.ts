@@ -58,6 +58,7 @@ private routes(): void {
   this.express.use('/', router);
   this.express.use('/api/v1/heroes', HeroRouter);
   this.express.use('/api/v1/heroes/:id', HeroRouter);
+  this.express.use('/api/v1/heroes/:id', MyRouter);
   //update name in the json file
   
 }

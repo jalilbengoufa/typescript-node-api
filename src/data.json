@@ -122,6 +122,37 @@
         "animal empathy",
         "bone claws"
       ]
+    },
+    {
+      "id": 6,
+      "name": "test",
+      "aliases": [
+        "Logan",
+        "Weapon X",
+        "Death",
+        "Agent Ten",
+        "Fist of Legend"
+      ],
+      "occupation": "special agent",
+      "gender": "male",
+      "height": {
+        "ft": 5,
+        "in": 3
+      },
+      "hair": "black",
+      "eyes": "blue",
+      "powers": [
+        "healing",
+        "acute senses",
+        "strength",
+        "speed",
+        "durability",
+        "agility",
+        "stamina",
+        "weather adaptation",
+        "animal empathy",
+        "bone claws"
+      ]
     }
   ]
   

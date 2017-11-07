@@ -15,7 +15,7 @@ describe('GET api/v1/heroes', () => {
         expect(res.status).to.equal(200);
         expect(res).to.be.json;
         expect(res.body).to.be.an('array');
-        expect(res.body).to.have.length(5);
+        expect(res.body).to.have.length(6);
       });
   });
 

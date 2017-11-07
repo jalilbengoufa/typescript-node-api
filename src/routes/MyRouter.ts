@@ -10,7 +10,7 @@ export class MyRouter {
      */
     constructor(){
         this.router = Router();
-        
+        this.init();
     }
 
 
@@ -25,15 +25,22 @@ export class MyRouter {
      */
     init(){
         this.router.get('/',this.getAll);
-        //this.router.//return name 
+        this.router.get('/:id',this.updateOne);
     }
     
     /**
      * update hero 
      */
     public updateOne(req: Request, res: Response, next: NextFunction){
-       
+       let query = parseInt(req.params.id);
+       let hero = myHeroes.find(hero => hero.id === query);
 
+       if(hero){
+
+            res.send({
+                hero 
+            });
+        }
     }
 
 
